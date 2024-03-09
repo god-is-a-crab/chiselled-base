@@ -1,3 +1,3 @@
 FROM chiselled-base:latest
-COPY hello hello/
-CMD ["hello/hello"]
+ADD hello /bin/
+CMD ["/bin/hello"]
